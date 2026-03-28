@@ -31,7 +31,7 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-xl order-2 lg:order-1">
             <Image
-              src="https://images.pexels.com/photos/5691546/pexels-photo-5691546.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://alyssa-personal.s3.us-east-1.amazonaws.com/vecteezy_large-tree-stump-in-summer-forest-tree-stump_3280061.jpg"
               alt="Professional tree service equipment"
               fill
               className="object-cover"
@@ -46,7 +46,7 @@ export function About() {
             </h2>
 
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              With years of experience in the industry, C&C Stump Grinding and More Inc provides professional, reliable stump removal services throughout Orange and Lake County. We take pride in delivering quality work and exceptional customer service on every job.
+              C&C Stump Grinding and More provides professional, reliable stump removal services throughout Orange and Lake County. We take pride in delivering quality work and exceptional customer service on every job.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-6">

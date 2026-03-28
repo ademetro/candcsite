@@ -14,8 +14,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'Contact us by phone',
-    href: 'tel:407-448-1647',
+    value: 'chris@candcstumpgrinding.com',
+    href: 'mailto:chris@candcstumpgrinding.com',
   },
   {
     icon: MapPin,
