@@ -9,7 +9,7 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="text-xl font-bold mb-4 text-brand-green-400">
-              C&C Stump Grinding and More Inc
+              C&C Stump Grinding and More 
             </h3>
             <p className="text-gray-400 mb-2">Licensed & Insured</p>
             <p className="text-gray-400">Professional Stump Grinding Services</p>
@@ -37,7 +37,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-          <p>&copy; {currentYear} C&C Stump Grinding and More Inc. All rights reserved.</p>
+          <p>&copy; {currentYear} C&C Stump Grinding and More All rights reserved.</p>
         </div>
       </div>
     </footer>
