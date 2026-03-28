@@ -5,19 +5,34 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'C&C Stump Grinding and More- Licensed & Insured',
-  description: 'Professional stump grinding, debris removal, and cleanup services in Orange and Lake County. Licensed and insured. Call 407-448-1647 for a free quote.',
+  metadataBase: new URL('https://CandCStumpgrindingandmore.com'),
+  title: 'Professional Stump Grinding in Orange & Lake County | C&C Stump Grinding',
+  description: 'Expert stump grinding services in Orange County and Lake County, Florida. Licensed & insured. Fast service, competitive pricing. Free quote - Call 407-448-1647',
+  keywords: ['stump grinding Orlando', 'stump removal Orange County', 'stump grinding Lake County', 'tree stump removal Florida', 'professional stump grinding'],
+  alternates: {
+    canonical: 'https://CandCStumpgrindingandmore.com',
+  },
+  robots: 'index, follow',
+  viewport: 'width=device-width, initial-scale=1',
   openGraph: {
-    title: 'C&C Stump Grinding and More',
-    description: 'Professional stump grinding services in Orange and Lake County',
+    title: 'Professional Stump Grinding in Orange & Lake County | C&C Stump Grinding',
+    description: 'Expert stump removal & cleanup services. Licensed, insured, fast response. Serving Orange and Lake County. Free quote!',
+    url: 'https://CandCStumpgrindingandmore.com',
+    type: 'website',
     images: [
       {
-        url: 'https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg',
+        url: 'https://alyssa-personal.s3.us-east-1.amazonaws.com/vecteezy_large-tree-stump-in-summer-forest-tree-stump_3280061.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Professional tree stump grinding service',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
+    title: 'Professional Stump Grinding in Orange & Lake County',
+    description: 'Licensed & insured stump removal services. Call 407-448-1647 for a free quote.',
+    images: ['https://alyssa-personal.s3.us-east-1.amazonaws.com/vecteezy_large-tree-stump-in-summer-forest-tree-stump_3280061.jpg'],
   },
 };
 
