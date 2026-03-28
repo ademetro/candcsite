@@ -24,7 +24,7 @@ export function Header() {
               onClick={() => scrollToSection('hero')}
               className="text-xl font-bold text-brand-green-700 hover:text-brand-green-800 transition-colors"
             >
-              C&C Stump Grinding
+              C&C Stump Grinding and More
             </button>
           </div>
 

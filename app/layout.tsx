@@ -5,10 +5,10 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'C&C Stump Grinding and More Inc - Licensed & Insured',
+  title: 'C&C Stump Grinding and More- Licensed & Insured',
   description: 'Professional stump grinding, debris removal, and cleanup services in Orange and Lake County. Licensed and insured. Call 407-448-1647 for a free quote.',
   openGraph: {
-    title: 'C&C Stump Grinding and More Inc',
+    title: 'C&C Stump Grinding and More',
     description: 'Professional stump grinding services in Orange and Lake County',
     images: [
       {
